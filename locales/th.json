@@ -22,56 +22,56 @@
     "result": "วนลูปอยู่ตอนนี้ {loop}"
   },
   "lyrics": {
-    "description": "Get lyrics for the currently playing song",
-    "errorNotQueue": "There is nothing playing.",
-    "lyricsNotFound": "No lyrics found for {title}.",
+    "description": "รับเนื้อเพลงสำหรับเพลงที่กำลังเล่นอยู่",
+    "errorNotQueue": "ไม่มีอะไรเล่นในตอนนี้.",
+    "lyricsNotFound": "ไม่พบเนื้อเพลงสำหรับ {title}.",
     "embedTitle": "{title} - Lyrics"
   },
   "move": {
-    "description": "Move songs around in the queue",
-    "errorNotQueue": "There is no queue.",
-    "usagesReply": "Usage: {prefix}move <Queue Number>",
-    "result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
+    "description": "ย้ายเพลงเข้าคิว",
+    "errorNotQueue": "ไม่มีคิว.",
+    "usagesReply": "Usage: {prefix}ย้าย <Queue Number>",
+    "result": "<@{author}> 🚚 ย้าย **{title}** ไป {index} ในคิว."
   },
   "nowplaying": {
-    "description": "Show now playing song",
-    "errorNotQueue": "There is nothing playing.",
-    "embedTitle": "Now playing",
+    "description": "แสดงเพลงที่เล่นอยู่",
+    "errorNotQueue": "ตอนนี้ยังไม่มีเพลงเล่น.",
+    "embedTitle": "กำลังเล่น",
     "live": " ◉ LIVE",
-    "timeRemaining": "Time Remaining: {time}"
+    "timeRemaining": "เวลาที่เหลืออยู่: {time}"
   },
   "pause": {
-    "description": "Pause the currently playing music",
-    "errorNotQueue": "There is nothing playing.",
-    "result": "<@{author}> ⏸ paused the music."
+    "description": "หยุดเพลงที่กำลังเล่นอยู่ชั่วคราว",
+    "errorNotQueue": "ไม่มีอะไรเล่น.",
+    "result": "<@{author}> ⏸ หยุดเพลงชั่วคราว."
   },
   "ping": {
     "description": "Show the bot's average ping",
     "result": "📈 Average ping to API: {ping} ms"
   },
   "play": {
-    "description": "Plays audio from YouTube or Soundcloud",
-    "errorNotChannel": "You need to join a voice channel first!",
-    "errorNotInSameChannel": "You must be in the same channel as {user}",
+    "description": "เปิดเพลงจาก YouTube หรือ Soundcloud",
+    "errorNotChannel": "คุณต้องเข้าร่วมช่องเสียงก่อน!",
+    "errorNotInSameChannel": "ต้องอยู่ช่องเดียวกับ {user}",
     "usageReply": "Usage: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
-    "missingPermissionConnect": "Cannot connect to voice channel, missing permissions",
-    "missingPermissionSpeak": "I cannot speak in this voice channel, make sure I have the proper permissions!",
-    "queueAdded": "✅ **{title}** has been added to the queue by <@{author}>",
-    "cantJoinChannel": "Could not join the channel: {error}",
-    "queueEnded": "❌ Music queue ended.",
+    "missingPermissionConnect": "เชื่อมต่อช่องเสียงไม่ได้, ไม่มีสิทธิ์",
+    "missingPermissionSpeak": "ฉันไม่สามารถพูดในช่องเสียงนี้ได้ ตรวจสอบให้แน่ใจว่าฉันมีสิทธิ์แล้วหรือยัง!",
+    "queueAdded": "✅ **{title}** ถูกเพิ่มในคิวโดย <@{author}>",
+    "cantJoinChannel": "ไม่สามารถเข้าร่วมช่อง: {error}",
+    "queueEnded": "❌ คิวเพลงสิ้นสุด.",
     "queueError": "Error: {error}",
-    "startedPlaying": "🎶 Started playing: **{title}** {url}",
-    "skipSong": "<@{author}> ⏩ skipped the song",
-    "pauseSong": "<@{author}> ⏸ paused the music.",
-    "resumeSong": "<@{author}> ▶ resumed the music!",
-    "unmutedSong": "<@{author}> 🔊 unmuted the music!",
-    "mutedSong": "<@{author}> 🔇 muted the music!",
-    "decreasedVolume": "<@{author}> 🔉 decreased the volume, the volume is now {volume}%",
-    "increasedVolume": "<@{author}> 🔊 increased the volume, the volume is now {volume}%",
-    "loopSong": "<@{author}> Loop is now {loop}",
-    "stopSong": "<@{author}> ⏹ stopped the music!",
-    "leaveChannel": "Leaving voice channel...",
-    "songNotFound": "Audio Not Found"
+    "startedPlaying": "🎶 เริ่มเล่น: **{title}** {url}",
+    "skipSong": "<@{author}> ⏩ ข้ามเพลง",
+    "pauseSong": "<@{author}> ⏸ หบุดเพลง.",
+    "resumeSong": "<@{author}> ▶ กลับมาเล่นเพลงต่อ!",
+    "unmutedSong": "<@{author}> 🔊 เปิดเสียงเพลง!",
+    "mutedSong": "<@{author}> 🔇 ปิดเสียงเพลง!",
+    "decreasedVolume": "<@{author}> 🔉 ลดระดับเสียง, ระดับเสียงอยู่ในขณะนี้ {volume}%",
+    "increasedVolume": "<@{author}> 🔊 เพิ่มระดับเสียง, ระดับเสียงอยู่ในขณะนี้ {volume}%",
+    "loopSong": "<@{author}> วนลูปอยู่ตอนนี้ {loop}",
+    "stopSong": "<@{author}> ⏹ หยุดเพลง!",
+    "leaveChannel": "ออกจากช่องเสียง...",
+    "songNotFound": "ไม่พบเสียง"
   },
   "playlist": {
     "description": "Play a playlist from youtube",
