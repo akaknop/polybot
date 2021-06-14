@@ -8,25 +8,6 @@ const { TOKEN, PREFIX, LOCALE } = require("./util/EvobotUtil");
 const path = require("path");
 const i18n = require("i18n");
 
-// set message listener 
-client.on('message', message => {
-    switch(message.content.toUpperCase()) {
-        case '?RESET':
-            resetBot(message.channel);
-            break;
-
-        // ... other commands
-    }
-});
-
-// Turn bot off (destroy), then turn it back on
-function resetBot(channel) {
-    // send channel a message that you're resetting bot [optional]
-    channel.send('Resetting...')
-    .then(msg => client.destroy())
-    .then(() => client.login(<your bot token here>));
-}
-
 const client = new Client({
   disableMentions: "everyone",
   restTimeOffset: 0
